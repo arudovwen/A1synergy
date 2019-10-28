@@ -1,0 +1,329 @@
+
+@media (max-width: 575.98px) { 
+    .banner{
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner-text{
+        z-index: 1;
+        position: absolute;
+        padding: 15px;;
+    }
+    
+    
+ }
+
+
+@media (max-width: 767.98px) { 
+    
+ }
+
+
+@media (max-width: 991.98px) { 
+  
+}
+
+
+@media (max-width: 1199.98px) {
+   
+ }
+
+
+ .navbar{
+     width: 75%;
+     margin: auto;
+     padding: 1rem;
+ }
+ .top-banner{
+     position: relative;
+ }
+ .banner{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-text{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    z-index: 2;
+}
+.board{
+    position: absolute;
+    bottom: -50px;
+    width: 110%;
+}
+.first{
+    height: 120px;
+    background-color: #f8f9fa;
+    transform: rotate(15deg);
+    margin-left: -25px;
+    border-top: 1px solid #122048;
+}
+.second{
+    height: 120px;
+    background-color: #f8f9fa;
+    transform: rotate(-5deg);
+    border-top: 1px solid #122048;
+    width: 73% !important;
+    padding: 20px;
+    text-align: right;
+   
+}
+
+.second img{
+    width: 100px;
+    height: 60px;
+    margin-right: 20%;
+}
+.offers{
+    display: flex;
+    background-color: #f8f9fa;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 300px;
+    text-align: left;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.about-box{
+    height: 300px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.middle-box{
+   
+    height: 400px;
+    margin-top: -50px;
+}
+
+.services{
+    height: 70vh;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+.first-service-box{
+    transform: skewX(20deg) translate(-40%);
+    width: 30%;
+    background-image: url(/images/banner1.jpg);
+    background-size: cover;
+    background-position: right;
+    
+}
+.second-service-box{
+    width: 70%;
+    transform: skewX(20deg) translate(-10%);
+}
+.our-services{
+    transform: skewX(-20deg);
+    padding:0 80px ;
+}
+.mini-box{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    background-image: url(/images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mini-box-text a{
+    transform: skew(-20deg);
+    background-color: #122048;
+    padding: 10px 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.mini-box-text {
+    transform: skew(-20deg);
+
+}
+
+.mini-box:hover .mini-box-text a{
+    display: inline;
+}
+.contactForm {
+    width: 50%;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(224, 60%, 94%);
+}
+
+form {
+    padding: 50px 40px;
+    text-align: left;
+    border-radius: 5px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+label {
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.form-group {
+    border: 1px solid #ced4da;
+    padding: 10px 0 0;
+    background-color: hsl(224, 60%, 98%);
+}
+
+.contactInfo {
+    width: 50%;
+    position: relative;
+    background-image: url(/images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.contactInfo .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+    z-index: 3;
+}
+
+.contactInfo .text p {
+    margin-bottom: 30px;
+}
+
+.contactOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18, 32, 72, .6);
+}
+
+#social {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#footer {
+    background-color: #122048;
+    color: hsl(224, 60%, 80%);
+}
+
+.mobile {
+    display: none;
+}
+
+.fa-2x {
+    font-size: 1em !important;
+}
+
+.fa-stack {
+    cursor: pointer !important;
+    color: #122048 !important;
+}
+
+.fa-stack:hover {
+    color: hsl(224, 60%, 80%) !important;
+}
+
+
+/* about ceo page  */
+.page-banner{
+  
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+}
+ .about-ceo{
+     width: 70%;
+     height: 100vh;
+     margin: auto;
+ }
+.ceo-image{
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+   
+    
+}
+.ceo-text{
+   width: 60%;
+   padding: 30px;
+   line-height: 1.6;
+}
+
+/* services  */
+
+.all-services{
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.first-service,.second-service,.third-service,.fourth-service{
+ height: 500px;
+}
+
+
+/* footer   */
+
+.main-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
