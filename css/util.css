@@ -2903,14 +2903,17 @@ img{
 .text-main{
 	color: hsl(224, 60%, 20%);
 }
+.text-main-50{
+	color: hsl(224, 60%, 50%);
+}
 .text-main-70{
-	color: hsl(224, 60%, 70%);
+	color: hsl(224, 60%, 80%);
 }
 .text-main-90{
 	color: hsl(224, 60%, 95%);
 }
 .bg-main-overlay{
-	background-color: rgb(18, 32, 72, .9);
+	background-color: rgb(18, 32, 72, .6);
 	position: absolute;
 	top: 0;
 	left:0;
@@ -2918,7 +2921,7 @@ img{
 	height: 100%;
 }
 .bg-banner{
-	background-image: url(/images/banner1.jpg);
+	background-image: url(/images/gate.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 }

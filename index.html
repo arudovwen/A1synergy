@@ -86,8 +86,8 @@
     </nav>
 
     <section class="top-banner">
-      <div class="banner  bg-main bg-banner">
-        <span class=""></span>
+      <div class="banner  bg-main bg-banner ">
+        <span class="bg-main-overlay"></span>
         <div class="banner-text">
           <h1 class=" mb-4 text-main-70 fs-70">Lorem ipsum dolor sit.</h1>
           <p class="text-main-90 mb-4 fs-18" style="line-height: normal;">
@@ -106,7 +106,7 @@
       <div class="d-flex board">
         <div class="w-25 first"></div>
         <div class="w-75 second">
-			<img src="/images/banner1.jpg" width="100" height="60" alt="">
+			<!-- <img src="/images/cat.png" width="100" height="60" alt=""> -->
 		</div>
       </div>
     </section>
@@ -114,9 +114,9 @@
     <section class="offers ">
       <div class="w-70">
         <div class="row w-100 ">
-          <div class="col-md-4 p-2 d-flex box">
-            <img src="" alt="image" width="60" height="60" />
-            <div class="px-3">
+          <div class="col-md-4 d-flex box">
+            <div><img class="offers-img" src="/images/rated.png" alt="image" width="60" height="60" /></div>
+            <div class="px-2">
               <h4>TOP RATED</h4>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -126,27 +126,27 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 p-2 d-flex box">
-            <img src="" alt=" image" width="60" height="60" />
-            <div class="px-3">
+          <div class="col-md-4  d-flex box">
+          <div>  <img class="offers-img" src="/images/quality.png" alt=" image" width="60" height="60" /></div>
+            <div class="px-2">
               <h4>BEST QUALITY</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                eaque quos perferendis alias qui reiciendis aspernatur soluta
-                consectetur quisquam? Consequatur esse incidunt ad tempore ipsam
-                perferendis. A ullam explicabo illum?
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque, laudantium! Esse, ab nulla provident unde error odio
+                  officiis quam non sint vitae! Earum eos, provident quae qui
+                  fugiat delectus! Inventore.
               </p>
             </div>
           </div>
-          <div class="col-md-4 p-2 d-flex box">
-            <img src="" alt=" image" width="60" height="60" />
-            <div class="px-3">
+          <div class="col-md-4  d-flex box">
+           <div> <img class="offers-img" src="/images/cost.png" alt=" image" width="60" height="60" /></div>
+            <div class="px-2">
               <h4>LOW COST</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Commodi delectus veniam facilis inventore laboriosam doloremque
-                impedit corporis est, quo deleniti culpa omnis asperiores saepe,
-                aperiam nam molestiae vero labore similique.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque, laudantium! Esse, ab nulla provident unde error odio
+                  officiis quam non sint vitae! Earum eos, provident quae qui
+                  fugiat delectus! Inventore.
               </p>
             </div>
           </div>
@@ -182,11 +182,13 @@
             <a
               name=""
               id=""
-              class=" mt-4 align-self-start"
+              class=" mt-4 align-self-start text-main" 
               href="about.html"
               role="button"
               >Read more</a
             >
+
+           <div class="w-100 text-right  px-4"> <i class="fas fa-hard-hat fa-3x  text-right"></i> </div>
           </div>
           <div class="col-md-4 p-3 about-box middle-box text-white bg-main">
             <h4>ABOUT US</h4>
@@ -204,6 +206,7 @@
               role="button"
               >Read more</a
             >
+            <div class="w-100 text-right  px-4"> <i class="fas fa-toolbox fa-3x fa-inverse text-right"></i></div>
           </div>
           <div class="col-md-4 p-3 about-box">
             <h4>OUR CERTIFICATE</h4>
@@ -216,11 +219,12 @@
             <a
               name=""
               id=""
-              class=" mt-4 align-self-start"
+              class=" mt-4 align-self-start text-main"
               href="about.html"
               role="button"
               >Read more</a
             >
+            <div class="w-100 text-right px-4"> <i class="fas fa-tools fa-3x  text-right"></i> </div>
           </div>
         </div>
       </div>
@@ -228,9 +232,9 @@
     <section id="service" class="services">
       <div class="service-box w-100 h-100 d-flex">
         <div class="first-service-box  h-100 bg-main">
-          <div class="service-img">
-            <img class="unskew" src="" alt="image" srcset="" />
-          </div>
+        
+            <img class="unskew service-img" src="/images/climb.jpg" alt="image" srcset="" />
+     
         </div>
         <div class="second-service-box  h-100  d-flex flex-column">
           <div class=" w-100 h-50  ">
@@ -249,21 +253,29 @@
           </div>
           <div class="w-100 h-50  d-flex">
             <div class="col-md-3 p-2 text-center">
-              <div class="mini-box"> 
-				  <div class="mini-box-text"><a class="text-white" href="services.html">Know more</a></div>
+              <div class="mini-box-1"> 
+                <img class="unskew " src="/images/excavator.jpg" alt="">
+			<a class=" mini-box-text text-white" href="services.html">Know more</a>
 			  </div>
               <h4 class="unskew mt-2">CONSTRUCTION</h4>
             </div>
             <div class="col-md-3 p-2 text-center">
-              <div class="mini-box">   <div class="mini-box-text"><a class="text-white" href="services.html">Know more</a></div></div>
+              <div class="mini-box-2"> 
+                  <img class="unskew " src="/images/tool.jpg" alt="">
+               <a class=" mini-box-text text-white" href="services.html">Know more</a></div>
               <h4 class="unskew mt-2">RENOVATION</h4>
             </div>
             <div class="col-md-3 p-2 text-center">
-              <div class="mini-box">   <div class="mini-box-text"><a  class="text-white" href="services.html">Know more</a></div></div>
+              <div class="mini-box-3">  
+                  <img class="unskew " src="/images/arc.jpg" alt="">
+                <a  class=" mini-box-text text-white" href="services.html">Know more</a></div>
               <h4 class="unskew mt-2">ARCHITECTURE</h4>
             </div>
             <div class="col-md-3 p-2 text-center">
-              <div class="mini-box">   <div class="mini-box-text"><a  class="text-white" href="services.html">Know more</a></div></div>
+              <div class="mini-box-4"> 
+                  <img class="unskew " src="/images/sky.jpg" alt="">
+                 
+                    <a  class=" mini-box-text text-white" href="services.html">Know more</a></div>
               <h4 class="unskew mt-2">DEVELOPMENT</h4>
             </div>
           </div>
@@ -403,13 +415,34 @@
     <footer>
       <div class="main-footer">
        <div class="col-md-4 text-center">
-1
+          <h4>lorem</h4>
+          <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+          </ul>
        </div>
        <div class="col-md-4 text-center">
-         2
+          <h4>lorem</h4>
+          <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+          </ul>
         </div>
         <div class="col-md-4 text-center">
-         3
+            <h4>lorem</h4>
+            <ul>
+              <li>lorem</li>
+              <li>lorem</li>
+              <li>lorem</li>
+              <li>lorem</li>
+              <li>lorem</li>
+            </ul>
           </div>
 
       </div>

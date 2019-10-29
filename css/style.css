@@ -57,6 +57,11 @@
     margin: auto;
     z-index: 2;
 }
+
+.offers-img{
+    width: 80px;
+    height: auto;
+}
 .board{
     position: absolute;
     bottom: -50px;
@@ -125,10 +130,18 @@
 .first-service-box{
     transform: skewX(20deg) translate(-40%);
     width: 30%;
-    background-image: url(/images/banner1.jpg);
+    /* background-image: url(/images/climb.jpg); */
     background-size: cover;
     background-position: right;
+    overflow:hidden;
     
+}
+.service-img{
+    width: 130%;
+    height: 100%;
+    transform: skewX(-20deg) ;
+    object-fit: cover;
+  
 }
 .second-service-box{
     width: 70%;
@@ -138,35 +151,81 @@
     transform: skewX(-20deg);
     padding:0 80px ;
 }
-.mini-box{
+.mini-box-3{
+    position: relative;
     width: 100%;
     height: 150px;
     background-color: black;
-    background-image: url(/images/banner1.jpg);
+   
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    overflow: hidden;
+}
+.mini-box-1 img, .mini-box-2 img, .mini-box-3 img,.mini-box-4 img{
+  width: 135%;
+}
+.mini-box-1{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+.mini-box-2{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+.mini-box-4{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
 }
 
-.mini-box-text a{
+.mini-box-text{
+    position: absolute;;
     transform: skew(-20deg);
     background-color: #122048;
     padding: 10px 20px;
     display: none;
     cursor: pointer;
+    z-index: 3;
 }
 
-.mini-box-text {
-    transform: skew(-20deg);
+.mini-box-1:hover .mini-box-text, .mini-box-2:hover .mini-box-text, .mini-box-3:hover .mini-box-text,.mini-box-4:hover .mini-box-text{
+   display: inline;
+  }
 
-}
-
-.mini-box:hover .mini-box-text a{
-    display: inline;
-}
 .contactForm {
     width: 50%;
     position: relative;
@@ -325,5 +384,7 @@ label {
     width: 100%;
     height: 300px;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;;
+
 }
