@@ -1,39 +1,7 @@
 
-@media (max-width: 575.98px) { 
-    .banner{
-        position: relative;
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-    .banner-text{
-        z-index: 1;
-        position: absolute;
-        padding: 15px;;
-    }
-    
-    
- }
-
-
-@media (max-width: 767.98px) { 
-    
- }
-
-
-@media (max-width: 991.98px) { 
-  
+.mobile{
+    display: none;
 }
-
-
-@media (max-width: 1199.98px) {
-   
- }
-
-
  .navbar{
      width: 75%;
      margin: auto;
@@ -229,7 +197,7 @@
 .contactForm {
     width: 50%;
     position: relative;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -376,15 +344,326 @@ label {
 .first-service,.second-service,.third-service,.fourth-service{
  height: 500px;
 }
-
+.third-service-img img{
+    object-fit: cover;
+}
+.about-banner{
+    background-image: url(/images/climbing.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.services-banner{
+    background-image: url(/images/why.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.ceo-banner{
+    background-image: url(/images/bg01.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.company-banner{
+    background-image: url(/images/sky.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
 
 /* footer   */
 
 .main-footer{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    padding: 30px 15px;
+    background-color: #f8f9fa;
 
 }
+@media (max-width: 1199.98px) { 
+    .navbar{
+        width: 90%;
+    }
+    .fs-70{
+        font-size: 60px;
+    }
+    .banner{
+        height: 80vh;
+    }
+    .w-70{
+        width: 90% !important;
+    }
+    .offer-cont{
+        height: 80px;
+    }
+  }
+
+@media (max-width: 991.98px) { 
+  .navbar{
+      width: 90%;
+  }
+  .fs-70{
+      font-size: 50px;
+  }
+  .w-70{
+      width: 90% !important;
+  }
+}
+
+
+
+@media (max-width: 767.98px) { 
+    .navbar{
+        width: 100%;
+    }
+    .fs-70{
+        font-size: 45px;
+    }
+    .banner{
+        height: 80vh;
+    }
+    .w-70{
+        width: 90% !important;
+    }
+    .about{
+        height: auto;
+        padding-top: 40px;
+    }
+    .middle-box{
+        height: 300px;
+        margin-top: 0;
+    }
+    .about-container{
+        margin: 0 !important;
+        padding-top: 40px;
+    }
+    .services{
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        padding: 15px;
+    }
+    .service-box{
+        flex-direction: column-reverse;
+    }
+    .second-service-box{
+        width: 100% !important;
+        transform: skewX(0) ;
+    }
+    .our-services{
+        transform: skewX(0) ;
+        padding: 30px 15px;
+    }
+    .unskew{
+        transform: skewX(0) ;
+    }
+    .mini-box-1 img, .mini-box-2 img, .mini-box-3 img,.mini-box-4 img{
+        width: 100%;
+      }
+      .services-scroll{
+          overflow-x: scroll;
+      }
+      .first-service-box{
+          display: none;
+      }
+
+
+#contactUs {
+    flex-direction: column;
+}
+
+.contactForm {
+    width: 100%;
+  
+
+}
+
+.contactInfo {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+.contactInfo .text p {
+    margin-bottom: 15px;
+}
+
+form {
+    padding: 0;
+    margin-top: 0;
+}
+
+#footer {
+    background-color: #122048;
+    color: hsl(224, 60%, 80%);
+}
+#social{
+    height: 100px;
+}
+.header{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.page-banner{
+    height: 35vh;
+}
+.about-ceo{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.ceo-image{
+    width: 100%;
+    height: auto;
+}
+.ceo-text{
+    width: 100%;
+}
+.all-services{
+    height: auto;
+    background-color: #f8f9fa;
+}
+.r-1,.r-3 {
+    flex-direction: column;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.r-2,.r-4{
+    flex-direction: column-reverse;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.row .p-5{
+    padding: 15px !important;
+}
+.all-services .row .w-50{
+   width: 100% !important;
+}
+.first-service,.second-service,.third-service,.fourth-service{
+    height: auto;
+   
+   }
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+  
+ }
+
+
+ @media (max-width: 575.98px) { 
+    .banner{
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner-text{
+        z-index: 1;
+        position: absolute;
+        padding: 15px;
+        width: 100%;
+        text-align: left;
+    }
+    .fs-70{
+        font-size: 30px;
+    }
+    .offers{
+        height: auto;
+    }
+    .box{
+        height: 200px;
+    }
+    .about{
+        height: auto;
+        padding-top: 40px;
+    }
+    .middle-box{
+        height: 300px;
+        margin-top: 0;
+    }
+    .about-container{
+        margin: 0 !important;
+        padding-top: 40px;
+    }
+
+    .services{
+        height: auto;
+        margin-top: 40px;
+        
+        padding-bottom: 40px;
+    }
+    .service-box{
+        flex-direction: column-reverse;
+    }
+    .second-service-box{
+        width: 100% !important;
+        transform: skewX(0) ;
+    }
+    .our-services{
+        transform: skewX(0) ;
+        padding: 30px 15px;
+    }
+    .unskew{
+        transform: skewX(0) ;
+    }
+    .mini-box-1 img, .mini-box-2 img, .mini-box-3 img,.mini-box-4 img{
+        width: 100%;
+      }
+      .services-scroll{
+          overflow-x: scroll;
+      }
+      .first-service-box{
+          display: none;
+      }
+
+
+#contactUs {
+    flex-direction: column;
+}
+
+.contactForm {
+    width: 100%;
+
+}
+
+.contactInfo {
+    width: 100%;
+    padding: 50px 0;
+   
+}
+
+.contactInfo .text p {
+    margin-bottom: 15px;
+}
+
+form {
+    padding: 0;
+    margin-top: 0;
+}
+
+#footer {
+    background-color: #122048;
+    color: hsl(224, 60%, 80%);
+}
+.header{
+    font-size: 30px;
+    padding: 20px 0;
+}
+    .page-banner{
+        height: 30vh;
+    }
+   
+    
+    
+ }
